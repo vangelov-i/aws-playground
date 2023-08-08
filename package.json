@@ -6,7 +6,9 @@
     "packages/*"
   ],
   "scripts": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "aws-cdk": "2.90.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vangelov-i/aws-playground.git"
