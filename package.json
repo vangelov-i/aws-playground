@@ -1,0 +1,21 @@
+{
+  "name": "aws-playground",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vangelov-i/aws-playground.git"
+  },
+  "keywords": [],
+  "author": "Iliyan Vangelov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vangelov-i/aws-playground/issues"
+  },
+  "homepage": "https://github.com/vangelov-i/aws-playground#readme"
+}
