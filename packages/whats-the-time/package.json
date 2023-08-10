@@ -5,7 +5,9 @@
   "description": "A playground app where we gradually build a solution that includes: Public vs Private IP and EC2 instances, Elastic IP vs Route 53 vs Load Balancers, Route 53 TTL, A records and Alias Records, Auto Scaling Groups, Multi Az, ELB Health Checks, Security Group Rules, Reservation of capacity",
   "main": "src/app.js",
   "scripts": {
-    "start": "fastify start --port 3000 --watch --log-level info --pretty-logs src/app.js"
+    "build": "docker build -t app:1 .",
+    "start": "npm run build && docker run -p 3000:3000 -i -t app:1",
+    "start:fastify": "fastify start --port 3000 --watch --log-level info --pretty-logs src/app.js"
   },
   "dependencies": {
     "fastify": "4.21.0",
