@@ -1,0 +1,22 @@
+{
+  "name": "whats-the-time-infra",
+  "version": "0.1.0",
+  "bin": {
+    "whats-the-time-infra": "bin/whats-the-time-infra.js"
+  },
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "aws-cdk": "2.90.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.90.0",
+    "cdk-ec2-key-pair": "3.3.1",
+    "constructs": "10.2.69",
+    "source-map-support": "0.5.21"
+  }
+}
